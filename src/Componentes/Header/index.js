@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"
 
-import { Link } from "react-router-dom";
+import {BrowserRouter, Link} from "react-router-dom"
 
 function Header() {
     return(
@@ -9,11 +9,13 @@ function Header() {
             <h2 className="portfolio">portfolio</h2>
 
             <nav>
-                <ul>
-                    <li><Link to="/" className="link-topo">Inicio</Link></li>
-                    <li><Link to="/Projetos" className="link-topo">Projetos</Link></li>
-                    <li>Contato</li>
-                </ul>
+                <BrowserRouter>
+                    <ul>
+                        <li><Link to="/" className="link-topo">Inicio</Link></li>
+                        <li><Link to="/Projetos" className="link-topo">Projetos</Link></li>
+                        <li>Contato</li>
+                    </ul>
+                </BrowserRouter>
             </nav>
         </header>
     )
