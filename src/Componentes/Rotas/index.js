@@ -1,7 +1,8 @@
 import React from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
-import Projetos from "../../Telas/Projetos";
+import Home from "../Home";
+import Projetos from "../Projetos";
 
 function Rotas  ()  {
     <BrowserRouter>
