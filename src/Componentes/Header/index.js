@@ -13,7 +13,7 @@ function Header() {
                     <ul>
                         <li><Link to="/" className="link-topo">Inicio</Link></li>
                         <li><Link to="/Projetos" className="link-topo">Projetos</Link></li>
-                        <li>Contato</li>
+                        <li><Link to="/Contato" className="link-topo">Contato</Link></li>
                     </ul>
                 </BrowserRouter>
             </nav>

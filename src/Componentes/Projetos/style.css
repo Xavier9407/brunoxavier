@@ -1,0 +1,52 @@
+main{
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: space-around;
+    align-content: space-around;
+
+    min-height: calc(100vh - 200px);
+    background-color: #090a0c;
+    /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,10,12,1) 50%, rgba(0,0,0,1) 100%);*/
+    /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(38,36,36,1) 50%, rgba(0,0,0,1) 100%);*/
+    color: white;
+}
+
+.link-projeto{
+    text-decoration: none;
+}
+
+.projeto{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+
+    border: black solid 1px;
+    color: black;
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    transition: 1s;
+}
+.projeto:hover{
+    
+    width: 270px;
+    height: 370px;
+}
+
+.img-projeto{
+    width: 100%;
+    height: 100px;
+   
+    border-bottom: black solid 1px;
+
+    background-image: url(./Codar/desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.projeto h3{
+    font-size: 20pt;
+}
