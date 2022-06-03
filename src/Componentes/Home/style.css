@@ -1,5 +1,5 @@
 /*Main*/
-main{
+.home{
     flex: 1 0 auto;
 
     display: flex;
@@ -12,7 +12,7 @@ main{
     color: white;
 }
 
-h1{
+.titulo{
     font-size: 34pt;
     margin: 20px;
 }
@@ -23,11 +23,11 @@ h1{
     margin: 20px;
 }
 
-span{
+.cargo{
     margin:20px;
 }
 
-p{
+.introducao p{
     margin: 20px;
     max-width: 500px;
 }

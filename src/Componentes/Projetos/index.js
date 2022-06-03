@@ -3,7 +3,7 @@ import "./style.css";
 
 function Projetos(){
     return(
-        <main>
+        <main className="projetos">
 
         <a href="./Codar/" className="link-projeto">
             <div className="projeto">
