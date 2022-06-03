@@ -1,20 +1,25 @@
 import React from "react";
 import "./style.css";
 
+import Header from "../Header"
+import Footer from '../Footer';
+import CardProjeto from "../CardProjeto";
+
 function Projetos(){
     return(
-        <main className="projetos">
+        <div>   
+            <Header /> 
+            <main className="projetos">
 
-        <a href="./Codar/" className="link-projeto">
-            <div className="projeto">
-                <div className="img-projeto"></div>
-                <h3>Codar.</h3>
-                <p>Uma página sobre uma empresa que desenvolve sites.</p>
-                <span>Tecnologias: HTML, CSS.</span>
-            </div>
-        </a>
+                <CardProjeto 
+                rota='Projetos/Codar' 
+                titulo='Codar'
+                descricao='Uma página sobre uma empresa que desenvolve sites.'
+                tecnologias='Tecnologias: HTML, CSS.'/>
 
-    </main>
+            </main>
+            <Footer/>
+        </div>
     )
 }
 

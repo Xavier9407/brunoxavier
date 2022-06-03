@@ -1,4 +1,4 @@
-.projetos{
+.contato{
     display: flex;
     flex-flow: row wrap;
     
@@ -6,11 +6,8 @@
     align-content: space-around;
 
     min-height: calc(100vh - 200px);
-    /*background-color: #090a0c;*/
+    background-color: #090a0c;
     /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,10,12,1) 50%, rgba(0,0,0,1) 100%);*/
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(38,36,36,1) 50%, rgba(0,0,0,1) 100%);
+    /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(38,36,36,1) 50%, rgba(0,0,0,1) 100%);*/
     color: white;
 }
-
-
-
