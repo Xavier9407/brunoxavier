@@ -7,7 +7,7 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-
+    
     padding: 5px;
     border-radius: 10px;
     border: black solid 1px;
@@ -27,12 +27,14 @@
 .img-projeto{
     width: 100%;
     height: 35%;
-    /*background-image: url(./Codar/desktop.png);
+    /*background-image: url(./Codar/desktop.png);*/
     background-size: cover;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     
 }
 
 .projeto h3{
     font-size: 20pt;
+    
 }
+

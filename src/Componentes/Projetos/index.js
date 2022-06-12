@@ -4,7 +4,7 @@ import "./style.css";
 import Header from "../Header"
 import Footer from '../Footer';
 import CardProjeto from "../CardProjeto";
-import image from "./Codar.png"
+import Codar from "./Codar.png"
 
 function Projetos(){
     return(
@@ -14,7 +14,7 @@ function Projetos(){
 
                 <CardProjeto 
                 rota='https://xavier9407.github.io/Codar/' 
-                image={image}
+                image= {"url(" + Codar +")"} 
                 titulo='Codar'
                 descricao='Uma página sobre uma empresa que desenvolve sites.'
                 tecnologias='Tecnologias: HTML, CSS.'/>

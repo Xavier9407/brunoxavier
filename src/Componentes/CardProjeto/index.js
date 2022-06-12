@@ -8,7 +8,7 @@ function CardProjeto(props){
     return(
         <a href={props.rota} className="card" target="_blank" rel="noreferrer">
             <div className="projeto">
-                <div className="img-projeto" style={{background: 'url('+ props.image + ');'}} ></div>            
+                <div className="img-projeto" style={{backgroundImage: props.image}} ></div>            
                 <h3>{props.titulo}</h3>
                 <p>{props.descricao}</p>
                 <span>{props.tecnologias}</span>

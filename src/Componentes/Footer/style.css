@@ -1,50 +1,8 @@
-
-header{
-    display: flex;
-    flex-flow: row wrap;   
-    align-items: center;
-
-    background-color: black;
-    color: white;
-    height: 100px;
-}
-
-.portfolio{
-    flex-basis: 50%;
-    text-align: center;
-    margin: auto;  
-}
-
-nav {
-    flex-basis: 50%;
-    text-align: center;
-    margin: auto;
-}
-
-ul{
-    display: inline-flex;
-    list-style: none;
-}
-
-li{
-    padding: 20px;
-}
-
-.link-topo{
-    color: white;
-    text-decoration: none;
-}
-
-.link-topo:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 /*Rodape*/
 
 footer{
     flex-shrink: 0;
-    position: fixed;
+
     bottom: 0px;
 
     display: flex;
