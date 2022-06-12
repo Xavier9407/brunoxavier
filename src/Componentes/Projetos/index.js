@@ -4,7 +4,7 @@ import "./style.css";
 import Header from "../Header"
 import Footer from '../Footer';
 import CardProjeto from "../CardProjeto";
-import image from "./desktop.png"
+import image from "./Codar.png"
 
 function Projetos(){
     return(

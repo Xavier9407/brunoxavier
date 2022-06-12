@@ -15,7 +15,7 @@ function Home(){
 
                     <span className="cargo">Desenvolvedor Front-End</span>
 
-                    <p>Olá, sou um desenvolvedor Front-End, amo escrever código, aprender coisas novas e sou apaixonado por tecnologia, pretendendo cursar Ciência  da Computação, sempre em busca de crecer como pessoa e profissional, vamos trabalhar juntos?</p>
+                    <p>Olá, sou um desenvolvedor Front-End, amo escrever código, aprender coisas novas e sou apaixonado por tecnologia, pretendendo cursar Ciência  da Computação, sempre em busca de crescer como pessoa e profissional, vamos trabalhar juntos?</p>
 
                     <span className="tecnologias">[HTML, CSS, JavaScript, React]</span>
                 </div>
